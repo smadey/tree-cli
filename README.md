@@ -2,11 +2,7 @@
 显示目录树
 
 ##安装
-    $ npm install smadey@tree-dir -g
+    $ npm install -g tree-dir-cli
 
 ##使用
-    $ tree-dir <dirname>
-
-排除相应目录
-
-    $ tree-dir <dirname> -i <ignoredir>
+    $ tree-dir -s <sourceDir> -i <ignoreDir1> -i <ignoreDir2> -o <outputDir>

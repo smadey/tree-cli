@@ -15,7 +15,7 @@ var args = parseArgs(process.argv.slice(2), {
 
 if (args.help) {
   console.log('Version: ' + pkg.version + '\n');
-  console.log('Usage: tree-dir -s <sourceDir> -i <ignoreDir1> -o <outputDir>\n');
+  console.log('Usage: tree-dir -s <sourceDir> -i <ignoreDir1> -i <ignoreDir2> -o <outputDir>\n');
   console.log('Commands:');
   console.log('tree-dir\tShow tree of current dir\n');
   console.log('Options:');
